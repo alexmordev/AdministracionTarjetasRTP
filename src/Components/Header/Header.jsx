@@ -16,7 +16,7 @@ export const Header = () => {
       <img
         src={logo}
         alt="Logo movilidad cdmx"
-        className="h-24 w-1/5 absolute"
+        className="h-12 w-1/6 absolute"
       />
       <div className="relative grid justify-items-center">
         <nav className="flex space-x-64 py-3

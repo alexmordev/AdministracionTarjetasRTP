@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/" element={<Login />} />
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/aplicaciones" element={<Aplicaciones />} />
         <Route path="/gestion" element={<Gestion />} />

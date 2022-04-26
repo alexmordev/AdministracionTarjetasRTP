@@ -1,20 +1,17 @@
-//import React from 'react'
+import React from 'react'
+import "../../index.css"
+import {Boton} from '../../Components/InicioSesion/Boton/Boton'
+import {Input_contra} from '../../Components/InicioSesion/Input_Contra/Input_contra'
+import {Input_usuario} from '../../Components/InicioSesion/Input_usuario/Input_usuario'
 
-//  export const Login = () => {
-//   return (
-//     <form className='bg-white shadow-md rounded-lg py-10 px-5'>
-//       <div>
-//         <label htmlFor='nombre' className='block text-gray-700 uppercase'>
-//           Nombre:
-//           </label>
-//         <input 
-//         id='nombre'
-//         type="text" 
-//         placeholder='Nombre del usuario'
-//         className='border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md' 
-//         />
-//       </div>
-//     </form>
-//     // <div className='line-through'>Log in</div>
-//   )
-// }
+
+
+export const Login = () => {
+  return (
+    <div className='fondo h-screen'>
+        <Input_usuario/>
+        <Input_contra/>
+        <Boton/>
+    </div>
+  )
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from "../../assets/movilidad_logo2.jpeg"
 import "../../index.css"
 
 export const Homepage = () => {
