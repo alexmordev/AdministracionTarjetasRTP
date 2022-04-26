@@ -1,13 +1,19 @@
 import React from 'react'
-import "./style.css"
+import logo from "../../assets/movilidad_logo2.jpeg"
+import "../../index.css"
 
 export const Homepage = () => {
   return (
-    <div className="fondo">
+    <div className="fondo h-screen">
         <p>Home Page</p>
-        <div className="prueba">
-
+        <div>
+    <img src={logo} alt="Logo movilidad cdmx" 
+        className=""
+      />
         </div>
     </div>
   )
 }
+
+
+/* bg-scroll bg-cover bg-no-repeat */

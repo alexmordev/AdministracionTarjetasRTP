@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Dumps = () => {
   return (
-    <div>Dumps</div>
+    <div className='fondo h-screen'>Dumps</div>
   )
 }

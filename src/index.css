@@ -12,6 +12,15 @@ code {
     monospace; 
 }
 
+.fondo{
+  background-image: url("./assets/fondo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

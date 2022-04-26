@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Gestion = () => {
   return (
-    <div>Gestion</div>
+    <div className='fondo h-screen'>Gestion</div>
   )
 }
