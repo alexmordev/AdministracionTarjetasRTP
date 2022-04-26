@@ -7,9 +7,7 @@ export const Homepage = () => {
     <div className="fondo h-screen">
         <p>Home Page</p>
         <div>
-    <img src={logo} alt="Logo movilidad cdmx" 
-        className=""
-      />
+    
         </div>
     </div>
   )
