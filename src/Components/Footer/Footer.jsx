@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className='
       w-full
       h-24
-      bg-teal-400
+      bg-gradient-to-r from-cyan-500 to-blue-500
     '>
       Footer
     </div>
