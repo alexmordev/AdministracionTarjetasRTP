@@ -9,11 +9,11 @@ import {Input_usuario} from '../../Components/InicioSesion/Input_usuario/Input_u
 export const Login = () => {
   return (
     <div className='fondo h-screen'>
-        <form action="">    
+        <div>    
             <Input_usuario/>
             <Input_contra/>
             <Boton/>
-        </form>
+        </div>
     </div>
   )
 }
