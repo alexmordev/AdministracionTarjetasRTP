@@ -1,11 +1,12 @@
 import React from 'react'
-
+import simpleLogo from '../../assets/rtp_logo.jpeg'
 export const Footer = () => {
   return (
     <div className='
       w-full
       h-12
       bg-gradient-to-r from-cyan-500 to-blue-500
+      flex-col
     '>
       <p className='text-center text-white text-lg  py-3'>
         El uso indebido de este software puede representar un delito
