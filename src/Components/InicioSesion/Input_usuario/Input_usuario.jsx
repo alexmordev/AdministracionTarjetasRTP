@@ -7,6 +7,6 @@ export const Input_usuario = () => {
           type="text"
           placeholder="Nombre del usuario"
           className="border-2 w-50 p-2 mt-2  rounded-md font-bold"
-        />
+      />
   )
 }
