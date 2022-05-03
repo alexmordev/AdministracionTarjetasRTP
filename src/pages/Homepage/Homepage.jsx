@@ -1,14 +1,11 @@
 import React from 'react'
-import logo from "../../assets/movilidad_logo2.jpeg"
 import "../../index.css"
+import { Multi_boton } from '../../Components/Multi_boton/Multi_boton'
 
 export const Homepage = () => {
   return (
     <div className="fondo h-screen">
-        <p>Home Page</p>
-        <div>
-    
-        </div>
+        <Multi_boton />
     </div>
   )
 }
