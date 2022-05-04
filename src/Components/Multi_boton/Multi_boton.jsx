@@ -3,43 +3,43 @@ import "./style.css";
 
 export const Multi_boton = () => {
   return (
-    <nav class="menu">
+    <nav className="menu">
       <input
         type="checkbox"
         href="#"
-        class="menu-open"
+        className="menu-open"
         name="menu-open"
         id="menu-open"
       />
-      <label class="menu-open-button" for="menu-open">
-        <span class="lines line-1"></span>
-        <span class="lines line-2"></span>
-        <span class="lines line-3"></span>
+      <label className="menu-open-button" for="menu-open">
+        <span className="lines line-1"></span>
+        <span className="lines line-2"></span>
+        <span className="lines line-3"></span>
       </label>
 
-      <a href="#" class="menu-item blue">
+      <a href="#" className="menu-item blue">
         {" "}
-        <i class="fa fa-anchor">Renovar</i>{" "}
+        <i className="fa fa-anchor">Renovar</i>{" "}
       </a>
-      <a href="#" class="menu-item green">
+      <a href="#" className="menu-item green">
         {" "}
-        <i class="fa fa-coffee">PIN</i>{" "}
+        <i className="fa fa-coffee">PIN</i>{" "}
       </a>
-      <a href="#" class="menu-item red">
+      <a href="#" className="menu-item red">
         {" "}
-        <i class="fa fa-heart"></i>{" "}
+        <i className="fa fa-heart"></i>{" "}
       </a>
-      <a href="#" class="menu-item purple">
+      <a href="#" className="menu-item purple">
         {" "}
-        <i class="fa fa-microphone"></i>{" "}
+        <i className="fa fa-microphone"></i>{" "}
       </a>
-      <a href="#" class="menu-item orange">
+      <a href="#" className="menu-item orange">
         {" "}
-        <i class="fa fa-star"></i>{" "}
+        <i className="fa fa-star"></i>{" "}
       </a>
-      <a href="#" class="menu-item lightblue">
+      <a href="#" className="menu-item lightblue">
         {" "}
-        <i class="fa fa-diamond"></i>{" "}
+        <i className="fa fa-diamond"></i>{" "}
       </a>
     </nav>
   );

@@ -30,7 +30,7 @@ export const Header = () => {
         </nav>
           <button
             type="button"
-            class="bg-yellow-600 border-cyan-900 hover:bg-green-700 hover:border-white
+            className="bg-yellow-600 border-cyan-900 hover:bg-green-700 hover:border-white
             absolute top-1 right-10 h-10 w-32 border-2 rounded-lg 
             text-white ..."
           >
