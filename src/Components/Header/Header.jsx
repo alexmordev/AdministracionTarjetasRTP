@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/movilidad_logo2.jpeg";
 
 export const Header = () => {
   return (
@@ -13,11 +12,6 @@ export const Header = () => {
       bg-gradient-to-r from-cyan-500 to-blue-500
     "
     >
-      <img
-        src={logo}
-        alt="Logo movilidad cdmx"
-        className="h-12 w-1/6 absolute"
-      />
       <div className="relative grid justify-items-center">
         <nav className="flex space-x-64 py-3
         text-white ...">
